@@ -1,2 +1,11 @@
-rootProject.name = 'spring-aws-education'
+pluginManagement {
+    plugins {
+        id 'org.springframework.boot' version "${springBootVersion}"
+        id 'io.spring.dependency-management' version "${springDependencyManagementVersion}"
+    }
+    repositories {
+        mavenCentral()
+    }
+}
 
+rootProject.name = 'spring-aws-education'
