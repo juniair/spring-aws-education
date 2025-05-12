@@ -28,7 +28,7 @@ public class HelloControllerTest {
 
 
     @Test
-    public void testReturnHello() throws Exception {
+    public void hello가_리턴된다() throws Exception {
         String hello = "hello";
 
         mvc.perform(get("/hello"))   // MockMvc를 통해 /hello 주소로 GET 요청
@@ -37,7 +37,7 @@ public class HelloControllerTest {
     }
 
     @Test
-    public void testReturnHelloDto() throws Exception {
+    public void helloDto가_리턴된다() throws Exception {
         String name = "hello";
         int amount = 1000;
 
